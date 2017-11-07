@@ -3,7 +3,7 @@ require_relative '../setup'
 puts "Exercise 1"
 puts "----------"
 
-# Your code goes below here ...
+# Create 3 stores
 Store.create(name: 'Burnaby', 
              annual_revenue: 300000, 
              mens_apparel: true, 
@@ -19,5 +19,6 @@ Store.create(name: 'Gastown',
              mens_apparel: true,
              womens_apparel: false)
 
+# Print number of stores
 puts Store.count
 
